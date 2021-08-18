@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NsightModels.Data
 {
-	class IoT_TSData
+	public class IoT_TSData
 	{
         public Guid OrgUUID { get; set; }
         public int SystemID { get; set; }
