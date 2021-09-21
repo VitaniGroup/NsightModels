@@ -17,8 +17,8 @@ namespace NsightModels.ConnectApi
 	{
 		public DateTime startDate { get; set; }
 		public DateTime endDate { get; set; }
-		public string deviceId { get; set; }
-		public string sensorId { get; set; }
+		public string majorId { get; set; }
+		public string minorId { get; set; }
 		public int intervalCount { get; set; }
 		public Interval interval { get; set; }
 
