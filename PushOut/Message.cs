@@ -12,6 +12,6 @@ namespace NsightModels.PushOut
         public string UserName { get; set; }
         public string Password { get; set; }
         public Info Info { get; set; }
-        public List<Data.TSIngress> Data { get; set; }
+        public List<Ingress.TSIngress> Data { get; set; }
     }
 }

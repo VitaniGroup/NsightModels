@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NsightModels.Data
+namespace NsightModels.Ingress
 {
     public enum Known_Ingress_Status
     {
