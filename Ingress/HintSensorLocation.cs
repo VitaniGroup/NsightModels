@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace NsightModels.Ingress
 {
-    class HintSensorLocation
+    public class HintSensorLocation
     {
         [JsonProperty(Required = Required.Always)]
         public string MajorID { get; set; }

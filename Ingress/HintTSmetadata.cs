@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace NsightModels.Ingress
 {
-    class HintTSmetadata
+    public class HintTSmetadata
     {
         [JsonProperty(Required = Required.Always)]
         public string MajorID { get; set; }

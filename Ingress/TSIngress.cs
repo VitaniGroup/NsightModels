@@ -10,7 +10,6 @@ namespace NsightModels.Ingress
 {
 	public class TSIngress
 	{
-        [JsonIgnore]
         public Guid OrgUUID { get; set; }
         [JsonProperty(Required = Required.Always)]
         public Guid SystemID { get; set; }
