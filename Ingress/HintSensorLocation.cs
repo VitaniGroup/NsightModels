@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System.Runtime.Serialization;
 
 namespace NsightModels.Ingress
 {
     public class HintSensorLocation
     {
-        [JsonProperty(Required = Required.Always)]
+        [IgnoreDataMember]
+        public Guid OrgUUID { get; set; }
         public string MajorID { get; set; }
-        [JsonProperty(Required = Required.Always)]
         public string MinorID { get; set; }
         public double Longitude { get; set; }
         public double latitude { get; set; }
-        [JsonProperty(Required = Required.AllowNull)]
         public string LocationName { get; set; }
 
     }
