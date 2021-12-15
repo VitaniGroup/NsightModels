@@ -8,9 +8,10 @@ using System.Runtime.Serialization;
 
 namespace NsightModels.Ingress
 {
+
     public class HintSensorLocation
     {
-        [IgnoreDataMember]
+        [SwaggerExclude]
         public Guid OrgUUID { get; set; }
         public string MajorID { get; set; }
         public string MinorID { get; set; }

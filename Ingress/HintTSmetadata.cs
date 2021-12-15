@@ -10,7 +10,7 @@ namespace NsightModels.Ingress
 {
     public class HintTSmetadata
     {
-        [IgnoreDataMember]
+        [SwaggerExclude]
         public Guid OrgUUID { get; set; }
         public string MajorID { get; set; }
         public string MinorID { get; set; }

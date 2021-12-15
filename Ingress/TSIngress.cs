@@ -12,7 +12,7 @@ namespace NsightModels.Ingress
 {
 	public class TSIngress
 	{
-        [IgnoreDataMember]
+        [SwaggerExclude]
         public Guid OrgUUID { get; set; }
         [JsonProperty(Required = Required.Always)]
         public Guid SystemID { get; set; }
