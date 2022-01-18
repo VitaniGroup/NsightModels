@@ -13,7 +13,7 @@ namespace NsightModels.ConnectApi
 		Days = 2
 	}
 
-	public class TimeSeriesReq
+	public class RawTSRequest
 	{
 		public DateTime startDate { get; set; }
 		public DateTime endDate { get; set; }
@@ -23,4 +23,15 @@ namespace NsightModels.ConnectApi
 		public Interval interval { get; set; }
 
 	}
+
+	public class RawTSResponse
+	{
+		public string MajorID { get; set; }
+		public string MinorID { get; set; }
+		public Guid ValueGroupID { get; set; }
+		public Guid EventID { get; set; }
+		public DateTime MTime { get; set; }
+		public double MValue { get; set; }
+	}
+
 }
